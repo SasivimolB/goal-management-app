@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.goalmanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/goalicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/goalicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TodoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TodoNoteActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GoalActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GoalNoteActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AchActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckinggActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CheckinggNoteActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
